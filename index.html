@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Prasad Tak</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        
+        <div class="about-text">
+          <h2>About Me</h2></div>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="profile.jpg" alt="My Profile Picture">
+            </div>
+          </div>
+        <div>  <p class ="written">Hello, I'm Prasad Tak and I aspire to become a data scientist. With a background in computer science, I'm passionate about exploring complex datasets and uncovering hidden patterns. I believe that data science is a creative discipline that offers endless opportunities to gain new insights and make meaningful contributions to our world.</p>
+        </div>
+      </section>
+      
+    <section id="education">
+        <h2>Education</h2>
+        <div class="bullets">
+        <ul >
+            <li>BTech in Computer Science, Dr. D. Y. Patil Institute of Technology, Pimpri, Pune (2020-present)</li>
+            <li>Higher Secondary Education, Shri Shivaji Science college, Nagpur (2017-2019)</li>
+            <li>Secondary Education, Sanjuba High School(C.B.S.E.), Nagpur (2017)</li>
+        </ul>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="bullets">
+        <ul>
+            <li>Programming Languages:C++, Java, Python, JavaScript, HTML/CSS</li>
+            <li>Frameworks: React, Angular, Django, Flask</li>
+            <li>Database Management: MySQL, MongoDB</li>
+            <li>Operating Systems: Windows, Linux, MacOS</li>
+        </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="bullets">
+        <ul>
+            <li><a href="https://app.datacamp.com/workspace/w/59e1addb-adad-41c8-a5e6-c35cb09a7631/edit">The Android apps market on google play</a></li>
+            <li><a href="https://app.datacamp.com/workspace/w/bb8e3bc8-2c51-4618-92cc-41b2b79737cc/edit">The Github History of Scala Language</a></li>
+            <li><a href="https://app.datacamp.com/workspace/w/30bb330b-de51-4485-bd94-76b3b049740e/edit">Investigating Netflix Movies and Guest Stars in the Office</a></li>
+        </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="send-email.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
